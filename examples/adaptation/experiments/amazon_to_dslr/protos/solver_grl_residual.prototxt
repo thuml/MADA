@@ -1,0 +1,14 @@
+net: "./examples/adaptation/experiments/amazon_to_dslr/protos/train_grl_residual.prototxt"
+#test_iter: 498
+test_iter: 157
+test_interval: 500
+base_lr: 0.001
+momentum: 0.9
+lr_policy: "inv"
+gamma: 0.001
+power: 0.75
+display: 500
+max_iter: 50000
+snapshot: 60000
+snapshot_prefix: "./examples/adaptation/experiments/amazon_to_webcam/snapshots/0"
+solver_mode: GPU

@@ -1,0 +1,14 @@
+net: "examples/adaptation/experiments/amazon_to_webcam/protos/reference_caffenet.prototxt"
+test_iter: 295
+test_interval: 300
+base_lr: 0.001
+lr_policy: "step"
+gamma: 0.5
+stepsize: 500
+display: 200
+max_iter: 450000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 50000
+snapshot_prefix: "models/bvlc_reference_caffenet/caffenet_train"
+solver_mode: GPU

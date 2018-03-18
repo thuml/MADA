@@ -1,0 +1,13 @@
+net: "/home/caozj/caffe-grl/examples/adaptation/experiments/webcam_to_dslr/protos/train_grl_google.prototxt"
+test_iter: 498
+test_interval: 10000
+base_lr: 0.001
+momentum: 0.9
+lr_policy: "inv"
+gamma: 0.001
+power: 0.75
+display: 100
+max_iter: 50000
+snapshot: 10000
+snapshot_prefix: "/home/caozj/caffe-grl/examples/adaptation/experiments/webcam_to_dslr/snapshots/train"
+solver_mode: GPU

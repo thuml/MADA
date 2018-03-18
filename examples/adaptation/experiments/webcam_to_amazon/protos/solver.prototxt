@@ -1,0 +1,13 @@
+net: "./examples/adaptation/experiments/webcam_to_amazon/protos/train_val.prototxt"
+test_iter: 2817
+test_interval: 500
+base_lr: 0.001
+momentum: 0.9
+lr_policy: "inv"
+gamma: 0.001
+power: 0.75
+display: 500
+max_iter: 50000
+snapshot: 10000
+snapshot_prefix: "./examples/adaptation/experiments/webcam_to_amazon/snapshots/train_RM_256_10_0.001_1_1024_1024_1"
+solver_mode: GPU
