@@ -7,7 +7,7 @@ lr_policy: "inv"
 gamma: 0.0003
 power: 0.75
 display: 500
-max_iter: 120000
+max_iter: 10000
 snapshot: 10000
 snapshot_prefix: "./models/mada/caffemodel/"
 solver_mode: GPU

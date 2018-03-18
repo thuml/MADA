@@ -453,7 +453,6 @@ layer {
     dropout_ratio: 0.5
   }
 }
-# ----------------------------------------------------------------------------
 layer {
   name: "bottleneck"
   type: "InnerProduct"
@@ -479,12 +478,6 @@ layer {
     }
   }
 }
-#layer {
-#  name: "relu_bottleneck"
-#  type: "ReLU"
-#  bottom: "bottleneck"
-#  top: "bottleneck"
-#}
 layer {
   name: "lp_fc8"
   type: "InnerProduct"
@@ -565,9 +558,9 @@ layer {
   top: "grl"
   gradient_scaler_param {
     lower_bound: 0.0
-    upper_bound: 0.06
+    upper_bound: 1.0
     alpha: 10.0
-    max_iter: 3000
+    max_iter: 10000
     threshold_iter: 0
   }
   include: { phase: TRAIN }
