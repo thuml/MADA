@@ -18,4 +18,7 @@ You need to download the reference\_caffenet model [here](http://dl.caffe.berkel
 For different tasks, you need to set the "test\_iter" parameter in the solver file as the size of the target dataset. For example, when "webcam" is used as target domain, you need to set the "test\_iter" parameter as 795.
 
 ## Contact
-If you have any problem about our code, feel free to contact caozhangjie14@gmail.com or describe your problem in Issues.
+If you have any problem about our code, feel free to contact 
+### caozhangjie14@gmail.com 
+### peizhyi@gmail.com
+### or describe your problem in Issues.
