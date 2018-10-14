@@ -19,6 +19,6 @@ For different tasks, you need to set the "test\_iter" parameter in the solver fi
 
 ## Contact
 If you have any problem about our code, feel free to contact 
-### caozhangjie14@gmail.com 
-### peizhyi@gmail.com
-### or describe your problem in Issues.
+- caozhangjie14@gmail.com 
+- peizhyi@gmail.com
+or describe your problem in Issues.
