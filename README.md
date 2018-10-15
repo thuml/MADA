@@ -1,6 +1,8 @@
 # MADA
 Code release for "Multi-Adversarial Domain Adaptation" (AAAI 2018)
 
+Protobuf Version 2.6.1
+
 ## Modification on Caffe
 - Add "OuterProduct" layer to calculate weighted feature to input to each domain adversarial network;
 
